@@ -1,0 +1,22 @@
+<div style="padding: 50px 20px; max-width: 600px; margin: 0 auto;">
+  <h2 style="text-align: center;">Contáctanos o Reserva</h2>
+  <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" style="display: flex; flex-direction: column; gap: 16px;">
+    
+    <mat-form-field appearance="fill" style="width: 100%;">
+      <mat-label>Nombre completo</mat-label>
+      <input matInput formControlName="name" placeholder="Ej. Ana García">
+    </mat-form-field>
+    
+    <mat-form-field appearance="fill" style="width: 100%;">
+      <mat-label>Email</mat-label>
+      <input matInput formControlName="email" type="email" placeholder="Ej. ana@correo.com">
+    </mat-form-field>
+    
+    <mat-form-field appearance="fill" style="width: 100%;">
+      <mat-label>Mensaje o tipo de reserva</mat-label>
+      <textarea matInput formControlName="message" rows="4" placeholder="Quiero empezar con Pilates..."></textarea>
+    </mat-form-field>
+    
+    <button mat-raised-button color="primary" type="submit" [disabled]="!contactForm.valid" style="padding: 10px; font-size: 1.1rem;">Enviar Mensaje</button>
+  </form>
+</div>

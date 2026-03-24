@@ -1,0 +1,16 @@
+@use '@angular/material' as mat;
+
+@mixin hero-card-theme($theme) {
+  .hero-card {
+    background-color: mat.get-theme-color($theme, primary, 95); /* mat.get-theme-color($theme, primary, 50) */
+    border-left: 4px solid mat.get-theme-color($theme, primary, 40); /* mat.get-theme-color($theme, primary, 700) */
+
+    .hero-card__title {
+      color: mat.get-theme-color($theme, primary, 10); /* mat.get-theme-color($theme, primary, 900) */
+    }
+
+    .hero-card__action {
+      background-color: mat.get-theme-color($theme, tertiary, 50); /* mat.get-theme-color($theme, secondary, 500) */
+    }
+  }
+}

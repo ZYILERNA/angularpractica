@@ -1,0 +1,37 @@
+Application bundle generation failed. [1.745 seconds] - 2026-03-19T14:58:32.832Z
+
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG2008: Could not find stylesheet file './app.component.scss'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.component.ts:13:12:
+[37m      13 │   styleUrl: [32m'./app.component.scss'[37m
+         ╵             [32m~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG2008: Could not find stylesheet file './contact.component.scss'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/contact/contact.component.ts:13:12:
+[37m      13 │   styleUrl: [32m'./contact.component.scss'[37m
+         ╵             [32m~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG2008: Could not find stylesheet file './hero.component.scss'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/hero/hero.component.ts:9:12:
+[37m      9 │   styleUrl: [32m'./hero.component.scss'[37m
+        ╵             [32m~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG2008: Could not find stylesheet file './services.component.scss'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/services/services.component.ts:12:12:
+[37m      12 │   styleUrl: [32m'./services.component.scss'[37m
+         ╵             [32m~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mNG2008: Could not find stylesheet file './toolbar.component.scss'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/toolbar/toolbar.component.ts:10:12:
+[37m      10 │   styleUrl: [32m'./toolbar.component.scss'[37m
+         ╵             [32m~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[39m[22m
