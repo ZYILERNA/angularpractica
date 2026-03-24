@@ -1,5 +1,5 @@
 # FitVida Wellness Studio
-**Alumno/a:** [TU NOMBRE AQUÍ]
+ZHEN YANG
 
 Proyecto de práctica de Angular Material utilizando la identidad de marca del cliente (colores #2E7D32 y #FF8F00). 
 Se han completado todos los requisitos de tematización de Angular Material.
